@@ -1,9 +1,9 @@
 # EXPERIMENT 3 :8086 MICROPROCESSOR – BASIC ARITHMETIC OPERATIONS
 
-## DATE:
-## NAME:
-## ROLL NUMBER:
-## DEPARTMENT:
+## DATE: 17/11/2026
+## NAME: sheikh hamza
+## ROLL NUMBER: RA2511030010360
+## DEPARTMENT: NWC
 
 ---
 
@@ -82,12 +82,10 @@ To perform the addition of two 8-bit numbers using the 8086 microprocessor.
 
 ### PROGRAM:
 
-```asm
-MOV AL, 05H
-MOV BL, 03H
-ADD AL, BL
+MOV AL,05H
+MOV BL,03H
+ADD AL,BL
 HLT
-```
 
 ### EXPLANATION:
 
@@ -98,10 +96,8 @@ HLT
 
 ### EXPECTED OUTPUT:
 
-| Register | Value |
-|---|---|
-| AL | 08H |
-| BL | 03H |
+<img width="445" height="446" alt="image" src="https://github.com/user-attachments/assets/0fabc98f-86f0-498a-9456-900bd2f9a1b5" />
+
 
 **Result:** 05H + 03H = 08H.
 
@@ -112,12 +108,10 @@ To perform the subtraction of two 8-bit numbers using the 8086 microprocessor.
 
 ### PROGRAM:
 
-```asm
 MOV AL, 09H
 MOV BL, 04H
 SUB AL, BL
 HLT
-```
 
 ### EXPLANATION:
 
@@ -128,10 +122,8 @@ HLT
 
 ### EXPECTED OUTPUT:
 
-| Register | Value |
-|---|---|
-| AL | 05H |
-| BL | 04H |
+<img width="421" height="412" alt="image" src="https://github.com/user-attachments/assets/ba89ea1b-d43a-4070-ad9b-d8a78b89f05e" />
+
 
 **Result:** 09H - 04H = 05H.
 
@@ -142,12 +134,10 @@ To perform the multiplication of two 8-bit unsigned numbers using the 8086 micro
 
 ### PROGRAM:
 
-```asm
 MOV AL, 05H
 MOV BL, 04H
 MUL BL
 HLT
-```
 
 ### EXPLANATION:
 
@@ -158,11 +148,8 @@ HLT
 
 ### EXPECTED OUTPUT:
 
-| Register | Value |
-|---|---|
-| AL | 14H |
-| AH | 00H |
-| AX | 0014H |
+<img width="416" height="396" alt="image" src="https://github.com/user-attachments/assets/c76ecd46-822e-485b-8b38-0b8921e80421" />
+
 
 **Result:** 05H × 04H = 14H.
 
