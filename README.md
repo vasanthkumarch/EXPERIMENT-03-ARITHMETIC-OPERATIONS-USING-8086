@@ -160,12 +160,10 @@ To perform the division of two 8-bit unsigned numbers using the 8086 microproces
 
 ### PROGRAM:
 
-```asm
 MOV AX, 0014H
 MOV BL, 04H
 DIV BL
 HLT
-```
 
 ### EXPLANATION:
 
@@ -177,10 +175,9 @@ HLT
 
 ### EXPECTED OUTPUT:
 
-| Register | Value |
-|---|---|
-| AL | 05H |
-| AH | 00H |
+<img width="445" height="446" alt="Screenshot 2026-11-17 161905" src="https://github.com/user-attachments/assets/ca97f68d-a2dc-458b-9ca3-e51a9add66fc" />
+<img width="417" height="401" alt="image" src="https://github.com/user-attachments/assets/8022b876-da52-4497-a36e-a91d7fd9238a" />
+
 
 **Result:** 14H ÷ 04H = 05H, Remainder = 00H.
 
@@ -190,25 +187,27 @@ HLT
 
 Upload the addition program execution screenshot here.
 
-![Addition Output](img/addition.png)
+<img width="416" height="402" alt="image" src="https://github.com/user-attachments/assets/be697365-80e5-450c-942a-019d105b5654" />
+
 
 ### FIGURE-02: SUBTRACTION OUTPUT
 
 Upload the subtraction program execution screenshot here.
 
-![Subtraction Output](img/subtraction.png)
+<img width="421" height="395" alt="image" src="https://github.com/user-attachments/assets/69cf06a0-7306-475d-9226-116d670b9ead" />
 
 ### FIGURE-03: MULTIPLICATION OUTPUT
 
 Upload the multiplication program execution screenshot here.
 
-![Multiplication Output](img/multiplication.png)
+<img width="401" height="397" alt="image" src="https://github.com/user-attachments/assets/2fef4d05-c005-4005-8878-8ebaf52fb967" />
 
 ### FIGURE-04: DIVISION OUTPUT
 
 Upload the division program execution screenshot here.
 
-![Division Output](img/division.png)
+<img width="411" height="396" alt="image" src="https://github.com/user-attachments/assets/4d308f81-17df-433f-ba27-2de90113294f" />
+
 
 ## RESULT:
 
